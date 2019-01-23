@@ -1,0 +1,48 @@
+ 驱动器 E 中的卷没有标签。
+ 卷的序列号是 800B-E76C
+
+ E:\zhengshan\Interface\UCGUI390a\Start\Application\reource\valveView 的目录
+
+2011/12/12  15:28    <DIR>          .
+2011/12/12  15:28    <DIR>          ..
+2011/12/12  15:28                 0 1.txt
+2011/12/12  14:28               318 vv_close_pressed.bmp
+2011/12/12  14:57             4,204 vv_close_pressed.c
+2011/12/12  14:45               318 vv_close_unpressed.bmp
+2011/12/12  14:58             4,218 vv_close_unpressed.c
+2011/12/12  14:30               494 vv_config_pressed.bmp
+2011/12/12  14:58             5,543 vv_config_pressed.c
+2011/12/12  14:47               494 vv_config_unpressed.bmp
+2011/12/12  14:58             5,557 vv_config_unpressed.c
+2011/12/12  14:46               494 vv_logon_pressed.bmp
+2011/12/12  14:58             5,536 vv_logon_pressed.c
+2011/12/12  14:31               494 vv_logon_unpressed.bmp
+2011/12/12  14:58             5,550 vv_logon_unpressed.c
+2011/12/12  14:27               318 vv_open_pressed.bmp
+2011/12/12  14:59             4,197 vv_open_pressed.c
+2011/12/12  14:38               318 vv_open_unpressed.bmp
+2011/12/12  14:59             4,211 vv_open_unpressed.c
+2011/12/12  14:29               318 vv_spos_pressed.bmp
+2011/12/12  14:59             4,197 vv_spos_pressed.c
+2011/12/12  14:45               318 vv_spos_unpressed.bmp
+2011/12/12  14:59             4,211 vv_spos_unpressed.c
+2011/12/12  14:28               318 vv_stop_pressed.bmp
+2011/12/12  14:59             4,197 vv_stop_pressed.c
+2011/12/12  14:40               318 vv_stop_unpressed.bmp
+2011/12/12  15:00             4,211 vv_stop_unpressed.c
+2011/01/13  14:15             4,222 vv_title.bmp
+2011/12/12  15:16            45,089 vv_title.c
+2011/01/13  14:15               318 vv_view_close_disable.bmp
+2011/12/12  15:06             4,239 vv_view_close_disable.c
+2011/01/13  14:15               318 vv_view_close_enable.bmp
+2011/12/12  15:07             4,232 vv_view_close_enable.c
+2011/01/13  14:15               262 vv_view_L.bmp
+2011/12/12  15:07             3,464 vv_view_L.c
+2011/01/13  14:15               318 vv_view_open_disable.bmp
+2011/12/12  15:07             4,232 vv_view_open_disable.c
+2011/01/13  14:15               318 vv_view_open_enable.bmp
+2011/12/12  15:07             4,225 vv_view_open_enable.c
+2011/01/13  14:15               270 vv_view_R.bmp
+2011/12/12  15:08             3,517 vv_view_R.c
+              39 个文件        135,376 字节
+               2 个目录 20,466,982,912 可用字节

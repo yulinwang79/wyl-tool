@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="gb2312"?>
+<modbus>
+  <PortConfig>
+    <Enable name="Enable" description="(Enable/Disable)">Enable/Disable</Enable>
+    <Type name="Type" description="Port Type(Master/Slave)">Master/Slave</Type>
+    <Protocol name="Protocol" description="Modbus Protocol (RTU/ASCII)">RTU/ASCII</Protocol>
+    <RingNumber name="Ring Number" description="For modbus master port,Two ports with the same ring number compose a ring (0:not in a ring;other:port in a ring)">0/1/2/3/4/5</RingNumber>
+    <BaudRate name="Baud Rate" description="Baud rate for port">3800/9600/19200/38400/57600/115200</BaudRate>
+    <Parity name="Parity" description="None, Odd, or Even">N/O/E</Parity>
+    <DataBits name="Data Bits" description="7 or 8 data bits">7/8</DataBits>
+    <StopBits name="Stop Bits" description="1 or 2 stop bits">1/2</StopBits>
+    <ResponseDelay name="Response Delay" description="When port configured as slave,this parameter specifies the number of milliseconds to delay before response">0~65536</ResponseDelay>
+    <ResponseTimeout name="Response Timeout" description="When port configured as master,this parameter specifies the command response timeout period,in unit of milliseconds">0~65536</ResponseTimeout>
+    <RetryCount name="Retry Count" description="When port configured as master,this parameter specifies the retry count for failed command">0~65536</RetryCount>
+    <ErrorDelayCounter name="Error Delay Counter" description="When port configured as master,this parameter specifies the poll attempts to be skipped before trying to reestablish communications with a slave that has failed to respond to a command">0~65536</ErrorDelayCounter>
+    <SlaveID name="Slave ID" description="Slave ID">1~255</SlaveID>
+    <BitInputOffset name="Bit Input Offset" description="When port configured as slave,this parameter specifies the internal database offset for binary input status data,MB function code:2,in unit of WORD">0~19999</BitInputOffset>
+    <BitOutputOffset name="Bit Output Offset" description="When port configured as slave,this parameter specifies the internal database offset for binary output coil data,MB function code:1,5,15,int unit of WORD">0~19999</BitOutputOffset>
+    <WordInputOffset name="Word Input Offset" description="When port configured as slave,this parameter specifies the internal database offset for input register data,MB function code:4,int unit of WORD">0~19999</WordInputOffset>
+    <HoldingRegisterOffset name="Holding Register Offset" description="When port configured as slave,this parameter specifies the internal database offset for holding register data,MB function code:3,6,16,23,int unit of WORD">0~19999</HoldingRegisterOffset>
+    <MinimumCommandDelay name="Minimum Command Delay" description="milliseconds delay between commands">0~65536</MinimumCommandDelay>
+  </PortConfig>
+  <PortCommands>
+    <Enable name="Enable" description="This field defines whether or not the command is to be executed.
+0:Disable.
+1:The command executes only if the internal data associated with the command 
+changes.
+2: The command is executed each scan of the command list.">0/1/2</Enable>
+    <DBOffset name="DB Offset" description="This field specifies the database address in the module's internal database to be associated with the command.">0~19999</DBOffset>
+    <Interval name="Interval" description="This parameter specifies the minimum interval to execute continuous commands">0~19999</Interval>
+    <RegCount name="Reg Count" description="This parameter specifies the number of registers or digital points to be associated with the command. ">1~19999</RegCount>
+    <Swap name="Swap" description="This parameter defines if the data received from the Server is to be ordered differently than that received from the Server device.
+0:no swap.
+1:bytes swap.">0/1</Swap>
+    <SlaveId name="Slave ID" description="This parameter specifies the Modbus slave node address on the network to be considered. 1~255 is valid.">1~255</SlaveId>
+    <FuncCode name="Func Code" description="1,2,3,4,5,6,15,16.
+This parameter specifies the Modbus function to be executed by the command.
+1 = Read Coil (0X)
+2 = Read Input (1x)
+3 = Read Holding Registers(4X)
+4 = Read Input Registers(3X)
+5 = Force (Write) Single Coil (0X)
+6 = Preset (Write) Single Register(4X)
+15 = Force (Write) Multiple Coil (0X)
+16 = Preset (Write) Multiple Register (4X)">1/2/3/4/5/6/15/16</FuncCode>
+    <SlaveAddr name="Slave Addr" description="This parameter specifies the starting Modbus register or digital point address to be considered by the command in the Modbus slave device. Refer to the documentation of each Modbus slave device on the network for their register and digital point address assignments." >0~65536</SlaveAddr>
+  </PortCommands>
+    <PCPortConfig>
+    <Enable name="Enable" description="(Enable/Disable)">Enable/Disable</Enable>
+    <Type name="Type" description="Port Type(Master/Slave)">Master/Slave</Type>
+    <Protocol name="Protocol" description="Modbus Protocol (RTU/ASCII)">RTU/ASCII</Protocol>
+    <RingNumber name="Ring Number" description="For modbus master port,Two ports with the same ring number compose a ring (0:not in a ring;other:port in a ring)">0/1/2/3/4/5</RingNumber>
+    <BaudRate name="Baud Rate" description="Baud rate for port">3800/9600/19200/38400/57600/115200</BaudRate>
+    <Parity name="Parity" description="None, Odd, or Even">N/O/E</Parity>
+    <DataBits name="Data Bits" description="7 or 8 data bits">7/8</DataBits>
+    <StopBits name="Stop Bits" description="1 or 2 stop bits">1/2</StopBits>
+    <ResponseDelay name="Response Delay" description="When port configured as slave,this parameter specifies the number of milliseconds to delay before response">0~65536</ResponseDelay>
+    <ResponseTimeout name="Response Timeout" description="When port configured as master,this parameter specifies the command response timeout period,in unit of milliseconds">0~65536</ResponseTimeout>
+    <RetryCount name="Retry Count" description="When port configured as master,this parameter specifies the retry count for failed command">0~65536</RetryCount>
+    <ErrorDelayCounter name="Error Delay Counter" description="When port configured as master,this parameter specifies the poll attempts to be skipped before trying to reestablish communications with a slave that has failed to respond to a command">0~65536</ErrorDelayCounter>
+    <SlaveID name="Slave ID" description="Slave ID">1~255</SlaveID>
+    <BitInputOffset name="Bit Input Offset" description="When port configured as slave,this parameter specifies the internal database offset for binary input status data,MB function code:2,in unit of WORD">0~19999</BitInputOffset>
+    <BitOutputOffset name="Bit Output Offset" description="When port configured as slave,this parameter specifies the internal database offset for binary output coil data,MB function code:1,5,15,int unit of WORD">0~19999</BitOutputOffset>
+    <WordInputOffset name="Word Input Offset" description="When port configured as slave,this parameter specifies the internal database offset for input register data,MB function code:4,int unit of WORD">0~19999</WordInputOffset>
+    <HoldingRegisterOffset name="Holding Register Offset" description="When port configured as slave,this parameter specifies the internal database offset for holding register data,MB function code:3,6,16,23,int unit of WORD">0~19999</HoldingRegisterOffset>
+    <MinimumCommandDelay name="Minimum Command Delay" description="milliseconds delay between commands">0~65536</MinimumCommandDelay>
+    <RS485Mode name="RS485 Mode" description="This parameter specifies the physical layer for the port.
+0:RS232
+1:RS485">0/1</RS485Mode>
+  </PCPortConfig>
+  <PCPortCommands>
+    <Enable name="Enable" description="This field defines whether or not the command is to be executed.
+0:Disable.
+1:The command executes only if the internal data associated with the command 
+changes.
+2: The command is executed each scan of the command list.">0/1/2</Enable>
+    <DBOffset name="DB Offset" description="This field specifies the database address in the module's internal database to be associated with the command.">0~19999</DBOffset>
+    <Interval name="Interval" description="This parameter specifies the minimum interval to execute continuous commands">0~19999</Interval>
+    <RegCount name="Reg Count" description="This parameter specifies the number of registers or digital points to be associated with the command. ">0~19999</RegCount>
+    <Swap name="Swap" description="This parameter defines if the data received from the Server is to be ordered differently than that received from the Server device.
+0:no swap.
+1:bytes swap.">0/1</Swap>
+    <SlaveId name="Slave ID" description="This parameter specifies the Modbus slave node address on the network to be considered. 1~255 is valid.">1~255</SlaveId>
+    <FuncCode name="Func Code" description="1,2,3,4,5,6,15,16.
+This parameter specifies the Modbus function to be executed by the command.
+1 = Read Coil (0X)
+2 = Read Input (1x)
+3 = Read Holding Registers(4X)
+4 = Read Input Registers(3X)
+5 = Force (Write) Single Coil (0X)
+6 = Preset (Write) Single Register(4X)
+15 = Force (Write) Multiple Coil (0X)
+16 = Preset (Write) Multiple Register (4X)">1/2/3/4/5/6/15/16</FuncCode>
+    <SlaveAddr name="Slave Addr" description="This parameter specifies the starting Modbus 
+register or digital point address to be considered by the command in the 
+Modbus slave device. Refer to the documentation of each Modbus slave device 
+on the network for their register and digital point address assignments.">0~65536</SlaveAddr>
+  </PCPortCommands>
+  <EthernetConfig>
+    <LocalIP name="Local IP" description="IP address">IP</LocalIP>
+    <GateWay name="GateWay" description="GateWay">IP</GateWay>
+    <NetMask name="Net Mask" description="Net Mask">IP</NetMask>
+  </EthernetConfig>
+  <EthernetClientConfig>
+    <Enable name="Enable" description="(Enable/Disable)">Enable/Disable</Enable>
+    <MinimumCommandDelay name="Minimum Command Delay" description="milliseconds delay between commands">0~65536</MinimumCommandDelay>
+    <RetryCount name="Retry Count" description="This parameter specifies the retry count for failed command">0~65536</RetryCount>
+    <ErrorDelayCounter name="Error Delay Counter" description="This parameter specifies the poll attempts to be skipped before trying to reestablish communications with a slave that has failed to respond to a command">0~65536</ErrorDelayCounter>
+    <ConnectReqestTimeout name="Connect Reqest Timeout" description="Timeout for a connection request,in unit of msec">0~65536</ConnectReqestTimeout>
+    <ClientMode name="Client Mode" description="This parameter specifies the cooperation mode for the two ether ports when sending commands list.
+0:invalid.
+1:independed,the commands list for this port will not sending from another ether port when error.
+2:redundant,this port is the redundant port another ether port on the module.
+commands list will be sent from another ether port on error/timeout">0/1/2</ClientMode>
+    <CmdPollingMode name="Cmd Polling Mode" description="This parameter specifies the mode for executing the commands list.
+0:invalid.
+1:sequence.command will be executed by sequence.
+2:concurrent.commands for different devices will be executed concurrently">0/1/2</CmdPollingMode>
+  </EthernetClientConfig>
+  <EthernetClientCommands>
+    <Enable name="Enable" description="This field defines whether or not the command is to be executed.
+0:Disable.
+1:The command executes only if the internal data associated with the command changes.
+2: The command is executed each scan of the command list.">0/1/2</Enable>
+    <DBOffset name="DB Offset" description="This field specifies the database address in the module's internal database to be associated with the command.">0~19999</DBOffset>
+    <Interval name="Interval" description="This parameter specifies the minimum interval to execute continuous commands">0~19999</Interval>
+    <RegCount name="Reg Count" description="This parameter specifies the number of registers or digital points to be associated with the command. ">1~19999</RegCount>
+    <Swap name="Swap" description="This parameter defines if the data received from the Server is to be ordered differently than that received from the Server device.
+0:no swap.
+1:bytes swap.">0/1</Swap>
+    <SlaveId name="Slave ID" description="This parameter specifies the Modbus slave node address on the network to be considered. 1~255 is valid.">1~255</SlaveId>
+    <FuncCode name="Func Code" description="1,2,3,4,5,6,15,16.
+This parameter specifies the Modbus function to be executed by the command.
+1 = Read Coil (0X)
+2 = Read Input (1x)
+3 = Read Holding Registers(4X)
+4 = Read Input Registers(3X)
+5 = Force (Write) Single Coil (0X)
+6 = Preset (Write) Single Register(4X)
+15 = Force (Write) Multiple Coil (0X)
+16 = Preset (Write) Multiple Register (4X)">1/2/3/4/5/6/15/16</FuncCode>
+    <SlaveAddr name="Slave Addr" description="This parameter specifies the starting Modbus 
+register or digital point address to be considered by the command in the 
+Modbus slave device. Refer to the documentation of each Modbus slave device 
+on the network for their register and digital point address assignments.">0~65536</SlaveAddr>
+    <NodeEth0IP name="Node Eth0 IP" description="This parameter specifies the first IP address of the remote Modbus Server.
+eg 0.0.0.0:502 ">IP:Port</NodeEth0IP>
+    <NodeEth1IP name="Node Eth1 IP" description="This parameter specifies the second IP address of the remote Modbus Server.
+eg 0.0.0.0:502 ">IP:Port</NodeEth1IP>
+  </EthernetClientCommands>
+  <EthernetServerConfig>
+    <Enable name="Enable" description="(Enable/Disable)">Enable/Disable</Enable>
+    <BitInputOffset name="Bit Input Offset" description="This parameter specifies the internal database offset for binary input status data,MB function code:2,in unit of WORD">0~19999</BitInputOffset>
+    <BitOutputOffset name="Bit Output Offset" description="This parameter specifies the internal database offset for binary output coil data,MB function code:1,5,15,int unit of WORD">0~19999</BitOutputOffset>
+    <WordInputOffset name="Word Input Offset" description="This parameter specifies the internal database offset for input register data,MB function code:4,int unit of WORD">0~19999</WordInputOffset>
+    <HoldingRegisterOffset name="Holding Register Offset" description="This parameter specifies the internal database offset for holding register data,MB function code:3,6,16,23,int unit of WORD">0~19999</HoldingRegisterOffset>
+    <TCPActiveTimeout name="TCP Active Timeout" description="This parameter specifies the timeout for a inactive tcp connection.">0~65536</TCPActiveTimeout>
+    <SlaveId name="Slave ID" description="This parameter specifies the Modbus slave node address on the network to be considered. 1~255 is valid.">1~255</SlaveId>
+    <ServerPort name="Server Port" description="This parameter specifies the tcp port for modbus server,502 for default ">0~65536</ServerPort>
+    <ServerIdleTimeout name="Server Idle Timeout" description="This parameter specifies the timeout to restart the modbus server when no active connections on the modbus server,in unit of seconds">0~65536</ServerIdleTimeout>
+  </EthernetServerConfig>
+  <DataRemap>
+    <SrcAddr name="Src addr" description="Source address in the database">0~19999</SrcAddr>
+    <DestAddr name="Dest Addr" description="Destination in the database">0~19999</DestAddr>
+    <RegCount name="Reg Count" description="Register Count to Be remapped">1~20000</RegCount>
+    <Swap name="Swap" description="Specifies the bytes swap mode of a reg word.
+0:no swap.
+1:byte swap.
+    ">0/1</Swap>
+    <Interval name="Interval" description="Specifies the loop interval of the remap 
+operation,in unit of msec,0 for default,65535 for copy on change.">0~65536</Interval>
+  </DataRemap>
+</modbus>
+

@@ -1,0 +1,8 @@
+E:\zhengshan\ConfigToolNew\LYC.Common\bin\Debug\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\LYC.Common\bin\Debug\LYC.Common.pdb
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\LYC.Common.pdb
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\LYC.Common.IPSettings.resources
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,13 @@
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\HmiConfig.MainForm.resources
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\HmiConfig.PasswordForm.resources
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\HmiConfig.Properties.Resources.resources
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\zhengshan\ConfigToolNew\HmiConfig\bin\Debug\HmiConfig.exe.config
+E:\zhengshan\ConfigToolNew\HmiConfig\bin\Debug\HmiConfig.exe
+E:\zhengshan\ConfigToolNew\HmiConfig\bin\Debug\HmiConfig.pdb
+E:\zhengshan\ConfigToolNew\HmiConfig\bin\Debug\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\HmiConfig.exe
+E:\zhengshan\ConfigToolNew\HmiConfig\obj\x86\Debug\HmiConfig.pdb
+E:\zhengshan\ConfigToolNew\HmiConfig\bin\Debug\LYC.Common.pdb

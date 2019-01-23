@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WYL">
+</Property><Property Name="解决方案文件" Value="E:\test\WYL\WYL\WYL.sln">
+</Property><Property Name="用户选项文件" Value="E:\test\WYL\WYL\WYL.suo">
+</Property><Property Name="Date" Value="2011年9月2日星期五">
+</Property><Property Name="Time" Value="16:44">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WYL.sln" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WYL.suo" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL.suo">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\WYL.csproj" Description="项目文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\WYL.csproj">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\BdfClass.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\BdfClass.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\CommonClass.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\CommonClass.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\DefaultValueForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\DefaultValueForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\DefaultValueForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\DefaultValueForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadMTKBin.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadMTKBin.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadMTKBin.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadMTKBin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\DrawForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\DrawForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\DrawForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\DrawForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadDataForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadDataForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadDataForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadDataForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\FontView.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\FontView.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\FontView.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\FontView.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\LoadFontRangeDataForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\LoadFontRangeDataForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\LoadFontRangeDataForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\LoadFontRangeDataForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\MainForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\MainForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\OpenBinForm.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\OpenBinForm.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\OpenBinForm.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\OpenBinForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\MTKBinClass.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\MTKBinClass.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\MTKResourceClass.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\MTKResourceClass.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Program.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Program.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Properties\Settings.settings" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadMTKBin.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadMTKBin.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\DrawForm.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\DrawForm.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\LoadDataForm.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\LoadDataForm.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\FontView.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\FontView.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\MainForm.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\LoadFontRangeDataForm.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\LoadFontRangeDataForm.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Form\OpenBinForm.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Form\OpenBinForm.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\Properties\Resources.resx" Description="文件已成功备份为 E:\test\WYL\WYL\Backup\WYL\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WYL" Source="WYL\WYL.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="WYL" Source="WYL\WYL.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="WYL.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="WYL.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,6 @@
+E:\zhengshan\ConfigToolNew\uninst\bin\Debug\uninst.exe.config
+E:\zhengshan\ConfigToolNew\uninst\bin\Debug\uninst.exe
+E:\zhengshan\ConfigToolNew\uninst\bin\Debug\uninst.pdb
+E:\zhengshan\ConfigToolNew\uninst\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\uninst\obj\x86\Debug\uninst.exe
+E:\zhengshan\ConfigToolNew\uninst\obj\x86\Debug\uninst.pdb

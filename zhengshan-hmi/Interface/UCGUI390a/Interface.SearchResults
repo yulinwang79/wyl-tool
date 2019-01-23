@@ -1,0 +1,246 @@
+---- GUI_LOGPALETTE Matches (45 in 39 files) ----
+CHECKBOX_Image.c (start\gui\widget):static const GUI_LOGPALETTE _PalCheckDisabled = {
+CHECKBOX_Image.c (start\gui\widget):static const GUI_LOGPALETTE _PalCheckEnabled = {
+CHECKBOX_SetNumStates.c (start\gui\widget):static const GUI_LOGPALETTE _PalCheckDisabled = {
+CHECKBOX_SetNumStates.c (start\gui\widget):static const GUI_LOGPALETTE _PalCheckEnabled = {
+FRAMEWIN_SetResizeable.c (start\gui\widget):static GUI_CONST_STORAGE GUI_LOGPALETTE _PalCursor = {
+Groupstate.c (start\application):static GUI_CONST_STORAGE GUI_LOGPALETTE Palgs_right = {
+GUI.h (start\gui\core):void GUI_DrawBitmapExp    (int x0, int y0, int XSize, int YSize, int XMul,  int YMul, int BitsPerPixel, int BytesPerLine, const U8 GUI_UNI_PTR * pData, const GUI_LOGPALETTE GUI_UNI_PTR * pPal);
+GUIAAChar2.c (start\gui\antialias):static GUI_LOGPALETTE Palette = {4, 0, &aColor[0]};
+GUIStream.c (start\gui\core):  GUI_LOGPALETTE Palette;
+GUIType.h (start\gui\core):typedef LCD_LOGPALETTE  GUI_LOGPALETTE;
+GUIType.h (start\gui\core):  const GUI_LOGPALETTE GUI_UNI_PTR * pPal;
+GUI_CursorPal.c (start\gui\core):GUI_CONST_STORAGE GUI_LOGPALETTE GUI_CursorPal = {
+GUI_CursorPalI.c (start\gui\core):GUI_CONST_STORAGE GUI_LOGPALETTE GUI_CursorPalI = {
+GUI_DrawBitmap.c (start\gui\core):  const GUI_LOGPALETTE GUI_UNI_PTR * pPal;
+GUI_DrawBitmapExp.c (start\gui\core):                       const GUI_LOGPALETTE GUI_UNI_PTR * pPal)
+GUI_DrawBitmapMag.c (start\gui\core):  const GUI_LOGPALETTE GUI_UNI_PTR * pPal;
+GUI_Protected.h (start\gui\core):extern GUI_CONST_STORAGE GUI_LOGPALETTE GUI_CursorPal;
+GUI_Protected.h (start\gui\core):extern GUI_CONST_STORAGE GUI_LOGPALETTE GUI_CursorPalI;
+LCDL0Delta.c (start\gui\core):static const GUI_LOGPALETTE _Pal;
+MainTask.c (start\application):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_title = {
+MicriumLogo.C (start\application):const GUI_LOGPALETTE PalBitamp = {
+MicriumLogo_1bpp.c (start\application):const GUI_LOGPALETTE PalMicriumLogo_1bpp = {
+RADIO_Image.c (start\gui\widget):static const GUI_LOGPALETTE _PalRadioDisabled = {
+RADIO_Image.c (start\gui\widget):static const GUI_LOGPALETTE _PalRadioEnabled = {
+RADIO_Image.c (start\gui\widget):static const GUI_LOGPALETTE _PalCheck = {
+setValve.c (start\application):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvalve_set = {
+Vv_close_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_close_pressed = {
+Vv_close_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_close_unpressed = {
+Vv_config_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_config_pressed = {
+Vv_config_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_config_unpressed = {
+Vv_logon_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_logon_pressed = {
+Vv_logon_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_logon_unpressed = {
+Vv_open_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_open_pressed = {
+Vv_open_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_open_unpressed = {
+Vv_spos_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_spos_pressed = {
+Vv_spos_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_spos_unpressed = {
+Vv_stop_pressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_stop_pressed = {
+Vv_stop_unpressed.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_stop_unpressed = {
+Vv_title.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_title = {
+Vv_view_close_disable.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_close_disable = {
+Vv_view_close_enable.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_close_enable = {
+vv_view_L.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_L = {
+Vv_view_open_disable.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_open_disable = {
+Vv_view_open_enable.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_open_enable = {
+vv_view_R.c (start\application\reource\valveview):static GUI_CONST_STORAGE GUI_LOGPALETTE Palvv_view_R = {
+---- BUTTON_BI_DISABLED Matches (3 in 2 files) ----
+BUTTON.c (start\gui\widget):    Index = pObj->ahDrawObj[BUTTON_BI_DISABLED] ? BUTTON_BI_DISABLED : BUTTON_BI_UNPRESSED;
+BUTTON.h (start\gui\widget):#define BUTTON_BI_DISABLED  2
+---- WM_SF_DISABLED Matches (4 in 3 files) ----
+WM_EnableWindow.c (start\gui\wm):    Status &= ~WM_SF_DISABLED;
+WM_EnableWindow.c (start\gui\wm):    Status |=  WM_SF_DISABLED;
+WM_Intern.h (start\gui\wm):#define WM_SF_DISABLED          WM_CF_DISABLED  /* Disabled: Does not receive PID (mouse & touch) input */
+WM__IsEnabled.c (start\gui\wm):  if ((WM_H2P(hWin)->Status) & WM_SF_DISABLED) {
+---- Result Matches (83 in 25 files) ----
+CHECKBOX_GetState.c (start\gui\widget):  int Result = 0;
+CHECKBOX_GetState.c (start\gui\widget):    Result = pObj->CurrentState;
+CHECKBOX_GetState.c (start\gui\widget):  return Result;
+EDITBin.c (start\gui\widget):  I32 Result  = pObj->CurrentValue & AndMask;
+EDITBin.c (start\gui\widget):  Result     |= OrMask;
+EDITBin.c (start\gui\widget):  EDIT_SetValue(hObj, Result);
+EDITDec.c (start\gui\widget):    I32 Result = GUI_AddSign(pObj->CurrentValue, &s);
+EDITDec.c (start\gui\widget):    GUI_AddDecShift(Result, pObj->MaxLen - 1, pObj->NumDecs, &s);
+EDITDec.c (start\gui\widget):  I32 Result = 0;
+EDITDec.c (start\gui\widget):      Result += GUI_Pow10[Pos++] * Digit;
+EDITDec.c (start\gui\widget):        Result += GUI_Pow10[Pos++] * Value;
+EDITDec.c (start\gui\widget):        Result *= -1;
+EDITDec.c (start\gui\widget):  EDIT_SetValue(hObj, Result);
+EDITHex.c (start\gui\widget):  I32 Result  = pObj->CurrentValue & AndMask;
+EDITHex.c (start\gui\widget):  Result     |= OrMask;
+EDITHex.c (start\gui\widget):  EDIT_SetValue(hObj, Result);
+Jdct.h (start\gui\jpeg):/* Multiply an INT32 variable by an INT32 constant to yield an INT32 result.
+Jddctmgr.c (start\gui\jpeg): * to zeroes; the result of the IDCT will be a neutral gray level.
+Jdhuff.c (start\gui\jpeg):    return 0;			/* fake a zero as the safest result */
+Jdhuff.h (start\gui\jpeg):#define HUFF_DECODE(result,state,htbl,failaction,slowlabel) \
+Jdhuff.h (start\gui\jpeg):    result = htbl->look_sym[look]; \
+Jdhuff.h (start\gui\jpeg):    if ((result=jpeg_huff_decode(&state,get_buffer,bits_left,htbl,nb)) < 0) \
+Jdmarker.c (start\gui\jpeg): * Note that the result might not be a valid marker code,
+Jdphuff.c (start\gui\jpeg):   * accept.  Note: large Al values could result in out-of-range DC
+Jfdctfst.c (start\gui\jpeg): * rounded result half the time...
+Jfdctfst.c (start\gui\jpeg): * descale to yield a DCTELEM result.
+Jfdctint.c (start\gui\jpeg):/* Multiply an INT32 variable by an INT32 constant to yield an INT32 result.
+Jidctflt.c (start\gui\jpeg): * entry; produce a float result.
+Jidctfst.c (start\gui\jpeg): * rounded result half the time...
+Jidctfst.c (start\gui\jpeg): * descale to yield a DCTELEM result.
+Jidctfst.c (start\gui\jpeg): * entry; produce a DCTELEM result.  For 8-bit data a 16x16->16
+Jidctint.c (start\gui\jpeg):/* Multiply an INT32 variable by an INT32 constant to yield an INT32 result.
+Jidctint.c (start\gui\jpeg): * entry; produce an int result.  In this module, both inputs and result
+Jidctred.c (start\gui\jpeg):/* Multiply an INT32 variable by an INT32 constant to yield an INT32 result.
+Jidctred.c (start\gui\jpeg): * entry; produce an int result.  In this module, both inputs and result
+Jmemmgr.c (start\gui\jpeg):  JSAMPARRAY result;
+Jmemmgr.c (start\gui\jpeg):  result = (JSAMPARRAY) alloc_small(cinfo, pool_id, (size_t) (numrows * SIZEOF(JSAMPROW)));
+Jmemmgr.c (start\gui\jpeg):      result[currow++] = workspace;
+Jmemmgr.c (start\gui\jpeg):  return result;
+Jmemmgr.c (start\gui\jpeg):  JBLOCKARRAY result;
+Jmemmgr.c (start\gui\jpeg):  result = (JBLOCKARRAY) alloc_small(cinfo, pool_id,
+Jmemmgr.c (start\gui\jpeg):      result[currow++] = workspace;
+Jmemmgr.c (start\gui\jpeg):  return result;
+Jmemmgr.c (start\gui\jpeg):  jvirt_sarray_ptr result;
+Jmemmgr.c (start\gui\jpeg):  result = (jvirt_sarray_ptr) alloc_small(cinfo, pool_id, SIZEOF(struct jvirt_sarray_control));
+Jmemmgr.c (start\gui\jpeg):  result->mem_buffer = NULL;	/* marks array not yet realized */
+Jmemmgr.c (start\gui\jpeg):  result->rows_in_array = numrows;
+Jmemmgr.c (start\gui\jpeg):  result->samplesperrow = samplesperrow;
+Jmemmgr.c (start\gui\jpeg):  result->maxaccess = maxaccess;
+Jmemmgr.c (start\gui\jpeg):  result->pre_zero = pre_zero;
+Jmemmgr.c (start\gui\jpeg):  result->b_s_open = FALSE;	/* no associated backing-store object */
+Jmemmgr.c (start\gui\jpeg):  result->next = mem->virt_sarray_list; /* add to list of virtual arrays */
+Jmemmgr.c (start\gui\jpeg):  mem->virt_sarray_list = result;
+Jmemmgr.c (start\gui\jpeg):  return result;
+Jmemmgr.c (start\gui\jpeg):  jvirt_barray_ptr result;
+Jmemmgr.c (start\gui\jpeg):  result = (jvirt_barray_ptr) alloc_small(cinfo, pool_id, SIZEOF(struct jvirt_barray_control));
+Jmemmgr.c (start\gui\jpeg):  result->mem_buffer = NULL;	/* marks array not yet realized */
+Jmemmgr.c (start\gui\jpeg):  result->rows_in_array = numrows;
+Jmemmgr.c (start\gui\jpeg):  result->blocksperrow = blocksperrow;
+Jmemmgr.c (start\gui\jpeg):  result->maxaccess = maxaccess;
+Jmemmgr.c (start\gui\jpeg):  result->pre_zero = pre_zero;
+Jmemmgr.c (start\gui\jpeg):  result->b_s_open = FALSE;	/* no associated backing-store object */
+Jmemmgr.c (start\gui\jpeg):  result->next = mem->virt_barray_list; /* add to list of virtual arrays */
+Jmemmgr.c (start\gui\jpeg):  mem->virt_barray_list = result;
+Jmemmgr.c (start\gui\jpeg):  return result;
+Jquant1.c (start\gui\jpeg): * "dither" value to the input pixel and then round the result to the nearest
+Libjpeg.txt (start\gui\jpeg\doc):to obtain the values that will result from the current parameter settings.
+Libjpeg.txt (start\gui\jpeg\doc):    damaged output image is likely to result.
+Libjpeg.txt (start\gui\jpeg\doc):whole file during jpeg_finish_compress(), which will certainly result in
+Libjpeg.txt (start\gui\jpeg\doc):  case would result in an out-of-memory failure.
+Libjpeg.txt (start\gui\jpeg\doc):result at any time after jpeg_read_header() completes.
+LISTBOX.c (start\gui\widget):  int Result = 0;
+LISTBOX.c (start\gui\widget):    if (Result < SizeX) {
+LISTBOX.c (start\gui\widget):      Result = SizeX;
+LISTBOX.c (start\gui\widget):  return Result;
+Structure.txt (start\gui\jpeg\doc):otherwise result.)
+Structure.txt (start\gui\jpeg\doc):result in very inefficient use of virtual memory or much-larger-than-necessary
+WM.h (start\gui\wm):                                               Sometimes send back as a result of the WM_NOTIFY_PARENT message
+WMTouch.c (start\gui\wm):     since it may have deleted itself and its parent as result of the message.
+WM_StayOnTop.c (start\gui\wm):  int Result = 0;
+WM_StayOnTop.c (start\gui\wm):      Result = 1;
+WM_StayOnTop.c (start\gui\wm):  return Result;
+WM_Validate.c (start\gui\wm):  The result is the smallest rectangle which includes the entire
+---- GUI_DRAWMODE_XOR Matches (2 in 2 files) ----
+GUI.h (start\gui\core):#define GUI_DRAWMODE_XOR     LCD_DRAWMODE_XOR
+GUI_InvertRect.c (start\gui\core):  PrevDraw = GUI_SetDrawMode(GUI_DRAWMODE_XOR);
+---- BUTTON_UNDRAW_BORDER Matches (5 in 4 files) ----
+BUTTON.c (start\gui\widget):  unDrawBorder = (State & BUTTON_UNDRAW_BORDER) ? 1 : 0;
+BUTTON.h (start\gui\widget):#define BUTTON_UNDRAW_BORDER    WIDGET_STATE_USER1
+Common.c (start\application):        BUTTON_SetState(handleArray[i],BUTTON_UNDRAW_BORDER);
+Groupstate.c (start\application):    BUTTON_SetState(ahButton[0],BUTTON_UNDRAW_BORDER);
+Groupstate.c (start\application):    BUTTON_SetState(ahButton[1],BUTTON_UNDRAW_BORDER);
+---- _VVEdit Matches (5 in 4 files) ----
+Common.h (start\application):int _VVEdit(const char* title,char * text_buf,int max_len) ;
+Logon.c (start\application):        _VVEdit("Password",s_password,PASSWORD_MAX_LENTH);
+Logon.c (start\application):        _VVEdit("New Password",s_new_password,PASSWORD_MAX_LENTH);
+setValve.c (start\application):                if(_VVEdit("Set Name",text,VALVE_NAME_MAX_LENTH))
+VVEdit.c (start\application):int _VVEdit(const char* title,char * text_buf,int max_len) {
+---- WM_SF_ISVIS Matches (33 in 13 files) ----
+BUTTON.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+BUTTON.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+SCROLLBAR.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+SCROLLBAR.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+SLIDER.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+SLIDER.c (start\gui\widget):  if (pObj->Widget.Win.Status & WM_SF_ISVIS) {
+WM.c (start\gui\wm):  if ((Status & WM_SF_ISVIS) == 0) {
+WM.c (start\gui\wm):*   ancestors as well as the WM_SF_ISVIS flag.
+WM.c (start\gui\wm):    if ((pWin->Status & WM_SF_ISVIS) == 0) {
+WM.c (start\gui\wm):    if (Status & WM_SF_ISVIS) {
+WM.c (start\gui\wm):    if (Status & WM_SF_ISVIS) {           /* If window is not visible, it can be safely ignored */
+WM.c (start\gui\wm):    if (Status & WM_SF_ISVIS) {           /* If window is not visible, it can be safely ignored */
+WM.c (start\gui\wm):    if (Status & WM_SF_ISVIS) {
+WM.c (start\gui\wm):      pWin->Status |= WM_SF_ISVIS;  /* Set Visibility flag */
+WM.c (start\gui\wm):    if (pAWin->Status & WM_SF_ISVIS) {
+WM.c (start\gui\wm):  if ((pWin->cb != NULL)  && (Status & WM_SF_ISVIS)) {
+WM.c (start\gui\wm):  if (pWin->Status & WM_SF_ISVIS) {
+WM.c (start\gui\wm):      if ((pChild->Status & (WM_SF_HASTRANS | WM_SF_ISVIS))   /* Transparent & visible ? */
+WM.c (start\gui\wm):		                ==  (WM_SF_HASTRANS | WM_SF_ISVIS)) {
+WM.c (start\gui\wm):      if ((pWin->Status & (WM_SF_HASTRANS | WM_SF_ISVIS)) ==  (WM_SF_HASTRANS | WM_SF_ISVIS)) {
+WM_GetInsideRectExScrollbar.c (start\gui\wm):         if ((WinFlags & WM_SF_ANCHOR_RIGHT) && (WinFlags & WM_SF_ISVIS)) {
+WM_GetInsideRectExScrollbar.c (start\gui\wm):         if ((WinFlags & WM_SF_ANCHOR_BOTTOM) && (WinFlags & WM_SF_ISVIS)) {
+WM_Hide.c (start\gui\wm):    if (pWin->Status & WM_SF_ISVIS) {
+WM_Hide.c (start\gui\wm):      pWin->Status &= ~WM_SF_ISVIS;
+WM_Intern.h (start\gui\wm):#define WM_SF_ISVIS             WM_CF_SHOW      /* Is visible flag */
+WM_IsCompletelyVisible.c (start\gui\wm):    if (Status & WM_SF_ISVIS) {
+WM_IsVisible.c (start\gui\wm):    if (pWin->Status & WM_SF_ISVIS) {
+WM_Move.c (start\gui\wm):    if (pWin->Status & WM_SF_ISVIS) {
+WM_Screen2Win.c (start\gui\wm):  if (   (pWin->Status & WM_SF_ISVIS)
+WM_Show.c (start\gui\wm):    if ((pWin->Status & WM_SF_ISVIS) == 0) {  /* First check if this is necessary at all */
+WM_Show.c (start\gui\wm):      pWin->Status |= WM_SF_ISVIS;  /* Set Visibility flag */
+WM__NotifyVisChanged.c (start\gui\wm):    if (pWin->Status & WM_SF_ISVIS) {
+---- WM_CF_HIDE Matches (2 in 2 files) ----
+BUTTON.h (start\gui\widget):#define BUTTON_CF_HIDE   WM_CF_HIDE
+WM.h (start\gui\wm):#define WM_CF_HIDE             (0<<1)  /* Hide window after creation (default !) */
+---- BUTTON_CF_HIDE Matches (1 in 1 files) ----
+BUTTON.h (start\gui\widget):#define BUTTON_CF_HIDE   WM_CF_HIDE
+---- WM_CF_SHOW Matches (23 in 16 files) ----
+BUTTON.h (start\gui\widget):#define BUTTON_CF_SHOW   WM_CF_SHOW
+DROPDOWN.c (start\gui\widget):                         , xSize, ySize, WM_CF_SHOW);
+EDIT.c (start\gui\widget):  hObj = WM_CreateWindowAsChild(x0, y0, xsize, ysize, hParent, WM_CF_SHOW | WinFlags, EDIT__Callback,
+FRAMEWIN.c (start\gui\widget):                                           WM_CF_ANCHOR_RIGHT | WM_CF_ANCHOR_LEFT | WM_CF_ANCHOR_TOP | WM_CF_ANCHOR_BOTTOM | WM_CF_SHOW | WM_CF_LATE_CLIP, 
+FRAMEWIN_Button.c (start\gui\widget):      WinFlags = WM_CF_SHOW | WM_CF_ANCHOR_RIGHT;
+FRAMEWIN_Button.c (start\gui\widget):      WinFlags = WM_CF_SHOW;
+HEADER_Create.c (start\gui\widget):  return HEADER_CreateEx(0, 0, 0, 0, hParent, WM_CF_SHOW, SpecialFlags, Id);
+LISTVIEW.c (start\gui\widget):    pObj->hHeader   = HEADER_CreateEx(0, 0, 0, 0, hObj, WM_CF_SHOW, 0, 0);
+LISTVIEW_Create.c (start\gui\widget):  return LISTVIEW_CreateEx(0, 0, 0, 0, hParent, WM_CF_SHOW, SpecialFlags, Id);
+MENU.c (start\gui\widget):  hObj = WM_CreateWindowAsChild(x0, y0, xSize, ySize, hParent, WM_CF_SHOW | WM_CF_STAYONTOP | WinFlags, &_MENU_Callback,
+MULTIPAGE.c (start\gui\widget):    hScroll = SCROLLBAR_Create(x, y, w, h, hObj, GUI_ID_HSCROLL, WM_CF_SHOW, 0);
+MULTIPAGE.c (start\gui\widget):    Flags = WM_CF_SHOW | WM_CF_ANCHOR_LEFT | WM_CF_ANCHOR_RIGHT | WM_CF_ANCHOR_TOP | WM_CF_ANCHOR_BOTTOM;
+SCROLLBAR_Create.c (start\gui\widget):    WinFlags = WM_CF_SHOW | WM_CF_STAYONTOP | WM_CF_ANCHOR_RIGHT | WM_CF_ANCHOR_TOP | WM_CF_ANCHOR_BOTTOM;
+SCROLLBAR_Create.c (start\gui\widget):    WinFlags = WM_CF_SHOW | WM_CF_STAYONTOP | WM_CF_ANCHOR_BOTTOM | WM_CF_ANCHOR_LEFT | WM_CF_ANCHOR_RIGHT;
+TEXT_CreateIndirect.c (start\gui\widget):                        hWinParent, WM_CF_SHOW, pCreateInfo->Flags, pCreateInfo->Id, pCreateInfo->pName);
+valveView.c (start\application):    //                                      114, 26, WM_CF_SHOW);
+valveView.c (start\application):    //                                          131, 26, WM_CF_SHOW);
+WM.c (start\gui\wm):    pWin->Status |= (Style & (WM_CF_SHOW |
+WM.c (start\gui\wm):    if (Style & WM_CF_SHOW) {
+WM.c (start\gui\wm):      WM__ahDesktopWin[0] = WM_CreateWindow(0, 0, GUI_XMAX, GUI_YMAX, WM_CF_SHOW, cbBackWin, 0);
+WM.c (start\gui\wm):        WM__ahDesktopWin[i] = WM_CreateWindowAsChild(0, 0, GUI_XMAX, GUI_YMAX, WM_UNATTACHED, WM_CF_SHOW, cbBackWin, 0);
+WM.h (start\gui\wm):#define WM_CF_SHOW             (1<<1)  /* Show window after creation */
+WM_Intern.h (start\gui\wm):#define WM_SF_ISVIS             WM_CF_SHOW      /* Is visible flag */
+---- BUTTON_CF_SHOW Matches (19 in 6 files) ----
+BUTTON.h (start\gui\widget):#define BUTTON_CF_SHOW   WM_CF_SHOW
+Common.c (start\application):                                         buttonArray[i].button_id, BUTTON_CF_SHOW );
+Groupstate.c (start\application):                                                            ID_GS_BUTTON_LEFT, BUTTON_CF_SHOW );
+Groupstate.c (start\application):                                                            ID_GS_BUTTON_RIGHT, BUTTON_CF_SHOW );
+Groupstate.c (start\application):    ahButton[2] = BUTTON_Create( 0, LCD_YSIZE -35, 80, 35, GUI_ID_CANCEL,BUTTON_CF_SHOW );
+Logon.c (start\application):      hButtonESC = BUTTON_Create( 0, LCD_YSIZE -LOGON_BUTTON_HEIGHT, LOGON_BUTTON_WIDTH, LOGON_BUTTON_HEIGHT, GUI_ID_CANCEL,BUTTON_CF_SHOW );
+Logon.c (start\application):      hButtonOK = BUTTON_Create( LCD_XSIZE -LOGON_BUTTON_WIDTH , LCD_YSIZE -LOGON_BUTTON_HEIGHT, LOGON_BUTTON_WIDTH, LOGON_BUTTON_HEIGHT, GUI_ID_OK,BUTTON_CF_SHOW );
+Mainmenu.c (start\application):                                                                ID_MM_GROUP_STATE_1 +i, BUTTON_CF_SHOW );
+Mainmenu.c (start\application):                                                                ID_MM_VALVE_VIEW_1 +i, BUTTON_CF_SHOW );
+VVEdit.c (start\application):    ahButton[i] = BUTTON_Create( x0, y0, 25, 25, Id,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  ahButton[i] = BUTTON_Create( 5  + 28*(i%11), VVEDIT_VK_TOP + 28*(i/11), 109, 25, ' ',BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonCAPS= BUTTON_Create( 5  + 28*(i%11) + 109+3, VVEDIT_VK_TOP + 28*(i/11), 53, 25, ID_BUTTON_KEY_CAPS,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonDEL= BUTTON_Create( 5  + 28*(i%11) + 109+3 + 56, VVEDIT_VK_TOP + 28*(i/11), 53, 25, ID_BUTTON_KEY_DEL,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonESC = BUTTON_Create( 0, LCD_YSIZE -VVEDIT_BUTTON_HEIGHT, VVEDIT_BUTTON_WIDTH, VVEDIT_BUTTON_HEIGHT, GUI_ID_CANCEL,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonOK = BUTTON_Create( LCD_XSIZE -VVEDIT_BUTTON_WIDTH , LCD_YSIZE -VVEDIT_BUTTON_HEIGHT, VVEDIT_BUTTON_WIDTH, VVEDIT_BUTTON_HEIGHT, GUI_ID_OK,BUTTON_CF_SHOW );
+VVEdit.c (start\application):    ahButton[i] = BUTTON_Create( x0, y0, 46, 46, c,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonDEL= BUTTON_Create( 10  + 50*(5), VVEDITNUM_VK_TOP, 46, 46, ID_BUTTON_KEY_DEL,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonESC = BUTTON_Create( 0, LCD_YSIZE -VVEDIT_BUTTON_HEIGHT, VVEDIT_BUTTON_WIDTH, VVEDIT_BUTTON_HEIGHT, GUI_ID_CANCEL,BUTTON_CF_SHOW );
+VVEdit.c (start\application):  hButtonOK = BUTTON_Create( LCD_XSIZE -VVEDIT_BUTTON_WIDTH , LCD_YSIZE -VVEDIT_BUTTON_HEIGHT, VVEDIT_BUTTON_WIDTH, VVEDIT_BUTTON_HEIGHT, GUI_ID_OK,BUTTON_CF_SHOW );
+---- hmi_is_login Matches (10 in 3 files) ----
+hmiData.c (start\application):int hmi_is_login()
+hmiData.h (start\application):int hmi_is_login(void);
+valveView.c (start\application):    {ID_VV_CONTRAL_OPEN,&bmvv_open_pressed,&bmvv_open_unpressed,&bmvv_open_pressed,{150 ,105, 192,136},hmi_is_login},
+valveView.c (start\application):    {ID_VV_CONTRAL_STOP,&bmvv_stop_pressed,&bmvv_stop_unpressed,&bmvv_stop_pressed,{211 ,105, 253,136,},hmi_is_login},
+valveView.c (start\application):    {ID_VV_CONTRAL_CLOSE,&bmvv_close_pressed,&bmvv_close_unpressed,&bmvv_close_pressed,{272 ,105, 314,136},hmi_is_login},
+valveView.c (start\application):    {ID_VV_CONTRAL_SPOS,&bmvv_spos_pressed,&bmvv_spos_unpressed,&bmvv_spos_pressed,{150 ,150, 192,181},hmi_is_login},
+valveView.c (start\application):    {ID_VV_LOGON,&bmvv_logon_pressed,&bmvv_logon_unpressed,&bmvv_logon_pressed,{153 ,200, 219,236},NULL,hmi_is_login},
+valveView.c (start\application):    {ID_VV_SET_VALVE,&bmvv_config_pressed,&bmvv_config_unpressed,&bmvv_config_pressed,{243 ,200, 309,236},hmi_is_login},
+valveView.c (start\application):            if(hmi_is_login() && _VVEditNum("SPOS Value",text,3))
+valveView.c (start\application):            if(hmi_is_login())

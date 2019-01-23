@@ -1,0 +1,10 @@
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\SvnProject.Properties.Resources.resources
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\GenerateResource.read.1.tlog
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\SvnProject\SvnProject\SvnProject\bin\Debug\SvnProject.exe
+J:\SvnProject\SvnProject\SvnProject\bin\Debug\SvnProject.pdb
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\SvnProject.exe
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\SvnProject.pdb
+J:\SvnProject\SvnProject\SvnProject\obj\x86\Debug\SvnProject.MainForm.resources
+J:\SvnProject\SvnProject\SvnProject\bin\Debug\SvnProject.exe.config

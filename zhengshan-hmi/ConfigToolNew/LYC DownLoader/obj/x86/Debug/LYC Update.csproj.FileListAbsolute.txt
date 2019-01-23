@@ -1,0 +1,12 @@
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\LYC_DownLoader.MainForm.resources
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\LYC_Update.Properties.Resources.resources
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\zhengshan\ConfigToolNew\LYC DownLoader\bin\Debug\LYC Update.exe.config
+E:\zhengshan\ConfigToolNew\LYC DownLoader\bin\Debug\LYC Update.exe
+E:\zhengshan\ConfigToolNew\LYC DownLoader\bin\Debug\LYC Update.pdb
+E:\zhengshan\ConfigToolNew\LYC DownLoader\bin\Debug\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\LYC Update.exe
+E:\zhengshan\ConfigToolNew\LYC DownLoader\obj\x86\Debug\LYC Update.pdb
+E:\zhengshan\ConfigToolNew\LYC DownLoader\bin\Debug\LYC.Common.pdb

@@ -1,0 +1,5 @@
+J:\zhengshan\ConfigTool\Net\LYC.Common\bin\Debug\LYC.Common.dll
+J:\zhengshan\ConfigTool\Net\LYC.Common\bin\Debug\LYC.Common.pdb
+J:\zhengshan\ConfigTool\Net\LYC.Common\obj\Debug\ResolveAssemblyReference.cache
+J:\zhengshan\ConfigTool\Net\LYC.Common\obj\Debug\LYC.Common.dll
+J:\zhengshan\ConfigTool\Net\LYC.Common\obj\Debug\LYC.Common.pdb

@@ -1,0 +1,12 @@
+E:\zhengshan\ConfigToolNew\DownLoader\bin\DownLoader\DownLoader.exe.config
+E:\zhengshan\ConfigToolNew\DownLoader\bin\DownLoader\DownLoader.exe
+E:\zhengshan\ConfigToolNew\DownLoader\bin\DownLoader\DownLoader.pdb
+E:\zhengshan\ConfigToolNew\DownLoader\bin\DownLoader\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\DownLoader\bin\DownLoader\LYC.Common.pdb
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\DownLoader.MainForm.resources
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\DownLoader.Properties.Resources.resources
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\GenerateResource.write.1.tlog
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\DownLoader.exe
+E:\zhengshan\ConfigToolNew\DownLoader\obj\x86\Release\DownLoader.pdb

@@ -1,0 +1,119 @@
+# DuHuanpeng write this GNUMakefile for portting uC/GUI on Linux
+# 2009-12-21
+# setup our defaults
+CC := arm-none-linux-gnueabi-gcc 
+
+C_INCLUDES := \
+	-IConfig \
+	-IGUI/AntiAlias \
+	-IGUI/ConvertColor \
+	-IGUI/ConvertMono \
+	-IGUI/Core \
+	-IGUI/Font \
+	-IGUI/JPEG \
+	-IGUI/LCDDriver \
+	-IGUI/MemDev \
+	-IGUI/MultiLayer \
+	-IGUI/Widget \
+	-IGUI/WM
+	
+#-IGUI/h.sh 
+
+CFLAGS	    = -MD -Wall -O3	
+LINKER_OPTS     = -O3
+LINKER_OPTS     += -lpthread
+
+#DEFINES := -DLCD_SIMCONTROLLER
+HIDE = @
+
+# AntiAlias
+include GUI/AntiAlias/AntiAlias.mk
+SRC_LIST := $(addprefix GUI/AntiAlias/, $(SOURCE))
+
+# -IGUI/ConvertColor 
+include GUI/ConvertColor/ConvertColor.mk
+SRC_LIST += $(addprefix GUI/ConvertColor/, $(SOURCE))
+
+#        -IGUI/ConvertMono
+include GUI/ConvertMono/ConvertMono.mk
+SRC_LIST += $(addprefix GUI/ConvertMono/, $(SOURCE))
+
+#        -IGUI/Core 
+include GUI/Core/Core.mk
+SRC_LIST += $(addprefix GUI/Core/, $(SOURCE))
+
+#        -IGUI/Font 
+include GUI/Font/Font.mk
+SRC_LIST += $(addprefix GUI/Font/, $(SOURCE))
+
+#	 -IGUI/Jpeg
+include GUI/Jpeg/Jpeg.mk
+SRC_LIST += $(addprefix GUI/Jpeg/, $(SOURCE))
+
+#        -IGUI/LCDDriver 
+include GUI/LCDDriver/LCDDriver.mk
+SRC_LIST += $(addprefix GUI/LCDDriver/, $(SOURCE))
+
+#	 -IGUI/MemDev
+include GUI/MemDev/MemDev.mk
+SRC_LIST += $(addprefix GUI/MemDev/, $(SOURCE))
+
+#        -IGUI/MultiLayer 
+include GUI/MultiLayer/MultiLayer.mk
+SRC_LIST += $(addprefix GUI/MultiLayer/, $(SOURCE))
+
+#        -IGUI/Widget 
+include GUI/Widget/Widget.mk
+SRC_LIST += $(addprefix GUI/Widget/, $(SOURCE)) 
+
+#       -IGUI/WM
+include GUI/WM/WM.mk
+SRC_LIST += $(addprefix GUI/WM/, $(SOURCE))
+
+out/%.o : %.c
+	@mkdir -p $(dir $@)
+	$(HIDE)$(CC) $(C_INCLUDES) $(CFLAGS) $(DEFINES) -c $< -o $@
+	@echo "compiling $@"
+# now build out objects
+OBJ_LIST := $(SRC_LIST:.c=.o)
+OBJ_LIST := $(addprefix out/, $(OBJ_LIST))
+
+#we want to compile these, but we don't actually link them
+JUST_COMPILE_OBJS := $(JUST_COMPILE_LIST:.c=.o)
+JUST_COMPILE_OBJS := $(addprefix /, $(JUST_COMPILE_OBJS))
+
+
+out/libucgui.a: Makefile $(OBJ_LIST) $(JUST_COMPILE_OBJS)
+	$(HIDE)$(AR) ru $@ $(OBJ_LIST)
+	$(HIDE)ranlib $@
+
+################################################################################
+
+Application_SRCS := MainTask.c calibration.c common.c groupstate.c hmi_data_struct.c hmiData.c \
+		    logon.c mainmenu.c setValve.c valveView.c VVEdit.c communication.c \
+		    tp_main.c GUI_X_Linux.c main_Linux.c
+Application_SRCS := $(addprefix Application/, $(Application_SRCS))
+
+Application_OBJS := $(Application_SRCS:.c=.o)
+Application_OBJS := $(addprefix out/, $(Application_OBJS))
+
+Application: $(Application_OBJS) out/libucgui.a
+	@echo "linking Application..."
+	@$(HIDE)$(CC) $(Application_OBJS) out/libucgui.a -o out/vc_hmi $(LINKER_OPTS) #out/Application/vc_hmi $(LINKER_OPTS)
+################################################################################
+.PHONY:all
+all: $ Application
+
+.PHONY:clean
+clean:
+	$(HIDE)rm -rf out
+.PHONY: help
+help:
+	@echo "Targets:"
+	@echo "	<default>: out/libucgui.a"
+	@echo "	Application:out/Application"
+	@echo "	help: this text"
+	@echo "Options:"
+	@echo "	None"
+	@echo ""
+

@@ -1,0 +1,14 @@
+E:\zhengshan\ConfigToolNew\LYC.Common\bin\Release\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\LYC.Common\bin\Release\LYC.Common.pdb
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.dll
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.pdb
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.IPSettings.resources
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\LYC.Common\obj\Release\GenerateResource.write.1.tlog
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\bin\Release\LYC.Common.dll
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\bin\Release\LYC.Common.pdb
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.IPSettings.resources
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.csproj.GenerateResource.Cache
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.dll
+D:\个人\zhengshan\ConfigToolNew\LYC.Common\obj\Release\LYC.Common.pdb

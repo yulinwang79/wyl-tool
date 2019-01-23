@@ -1,0 +1,12 @@
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\ResolveAssemblyReference.cache
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\LYC_DownLoader.IPSettings.resources
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\LYC_DownLoader.MainForm.resources
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\LYC_DownLoader.Properties.Resources.resources
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\GenerateResource.read.1.tlog
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\GenerateResource.write.1.tlog
+J:\zhengshan\ConfigTool\new\LYC DownLoader\bin\Release\LYC DownLoader.exe
+J:\zhengshan\ConfigTool\new\LYC DownLoader\bin\Release\LYC DownLoader.pdb
+J:\zhengshan\ConfigTool\new\LYC DownLoader\bin\Release\LYC.Common.dll
+J:\zhengshan\ConfigTool\new\LYC DownLoader\bin\Release\LYC.Common.pdb
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\LYC DownLoader.exe
+J:\zhengshan\ConfigTool\new\LYC DownLoader\obj\x86\Release\LYC DownLoader.pdb

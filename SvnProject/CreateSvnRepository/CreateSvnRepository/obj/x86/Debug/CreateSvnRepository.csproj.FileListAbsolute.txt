@@ -1,0 +1,9 @@
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\bin\Debug\CreateSvnRepository.exe
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\bin\Debug\CreateSvnRepository.pdb
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\CreateSvnRepository.MainForm.resources
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\CreateSvnRepository.Properties.Resources.resources
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\CreateSvnRepository.exe
+E:\test\ExtractRes\CreateSvnRepository\CreateSvnRepository\obj\x86\Debug\CreateSvnRepository.pdb

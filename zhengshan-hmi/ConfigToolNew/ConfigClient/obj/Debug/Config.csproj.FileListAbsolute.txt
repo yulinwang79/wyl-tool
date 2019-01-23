@@ -1,0 +1,15 @@
+E:\zhengshan\ConfigToolNew\bin\Debug\Config.exe.config
+E:\zhengshan\ConfigToolNew\bin\Debug\Config.exe
+E:\zhengshan\ConfigToolNew\bin\Debug\Config.pdb
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\ResolveAssemblyReference.cache
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.CommandForm.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.MainForm.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.PortCommandsEditForm.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.PortConfigEditForm.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.SearialPortSettings.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.WaitingForm.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.Resource.Resource.resources
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\GenerateResource.read.1.tlog
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\GenerateResource.write.1.tlog
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.exe
+E:\zhengshan\ConfigToolNew\ConfigClient\obj\Debug\Config.pdb
